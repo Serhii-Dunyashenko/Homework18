@@ -1,4 +1,4 @@
-
+// Prototype class
 class hamburger {
     size = String;
     stuffing = String;
@@ -19,7 +19,11 @@ class hamburger {
 
 };
 
+// New hamburger
+
 const myHamburger = new hamburger("small", "cheese",);
+
+// Consts for parts
 
 const bigHamburger = {
     callories: 40,
@@ -92,6 +96,8 @@ function checkPrice (hamburger) {
     let finalPrice = stockPrice + stuffingPrice + toppingPrice;
     return `${finalPrice} Tuhrics`;
 };
+
+// Callories check
 
 function checkCallories (hamburger) {
     let stockCallories = 0;
